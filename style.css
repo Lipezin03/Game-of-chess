@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background-color: rgb(16, 50, 56);
+    position: relative;
+}
+
+
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 60px;
+}
+
+td {
+    width: 60px;
+    text-align: center;
+    color: rgb(231, 143, 143);
+}
+
+.white {
+    background-color: rgb(216, 207, 155);
+    /* background-image: url(https://img-fotki.yandex.ru/get/6430/66124276.193/0_96e9b_7dad3887_S.jpg); */
+
+}
+.black{
+    background-color: rgb(29, 22, 7);
+    /* background-image: url(https://storage.picsave.pp.ua/view/0/1897/thumb); */
+
+
+}
+
+.whiteFigure {
+    color: #fff
+}
+.blackFigure {
+    color: black;
+}
+
+i {
+    font-size: 30px;
+    text-shadow: 0 0 8px grey;
+}
+
+.hoverMove {
+    background-color: rgb(228, 146, 177);     //aquamarine;
+    border: 1px solid #000;
+}
+
+.hoverScale {
+    transform: scale(1.9);
+}
+
+.button{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(70, 43, 43);
+    left: 100px;
+    top: 30%;
+    color: azure;
+
+}
+
+.fieldcСhange {
+    transform: rotate(180deg);
+    transition-duration: 1s;
+
+}
+
+.button2{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(70, 43, 43);
+    left: 100px;
+    top: 60%;
+    color: azure;
+}
+
+.fieldcСhange2 {
+    transform: rotate(0deg);
+    transition-duration: 1s;
+
+}
